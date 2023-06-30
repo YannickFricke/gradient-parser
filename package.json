@@ -2,8 +2,13 @@
   "name": "@yannickfricke/gradient-parser",
   "version": "0.0.0",
   "license": "MIT",
+  "scripts": {
+    "format:check": "prettier --check ./src ./Readme.md ./package.json ./tsconfig.json",
+    "format:write": "prettier --write ./src ./Readme.md ./package.json ./tsconfig.json"
+  },
   "dependencies": {},
   "devDependencies": {
+    "prettier": "^2.8.8",
     "typescript": "^5.1.6"
   }
 }
